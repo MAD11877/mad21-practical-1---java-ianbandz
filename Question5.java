@@ -26,7 +26,16 @@ public class Question5
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
      
+    int amt,i;
+
     Scanner in = new Scanner(System.in);
+    amt = in.nextInt();
+
+    for(i = 1; i <= amt; i++)
+    {
+    System.out.print("Test");
+    }
+
     
   }
 }
